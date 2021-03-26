@@ -1,1 +1,78 @@
-<h1>ht.kz</h1>
+<section>
+<h1>ng test app</h1>
+  <div class="tour-search-wrapper">
+    <div class="ht-search">
+      город вылета
+      <i class="ri-flight-takeoff-line"></i>
+    </div>
+    <div class="ht-search">
+      страна прилёта
+      <i class="ri-flight-land-line"></i>
+    </div>
+    <div class="ht-search">
+      дата вылета
+      <i class="ri-calendar-2-line"></i>
+    </div>
+    <div class="ht-search">
+      кол-во ночей
+      <i class="ri-moon-line"></i>
+    </div>
+    <div class="ht-search">
+      кол-во людей
+      <i class="ri-user-add-line"></i>
+    </div>
+    <button class="tour-search-btn">найти</button>
+  </div>
+
+</section>
+
+<style>
+.tour-search-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding:2rem 0;
+}
+
+.tour-search-wrapper .ht-search {
+  padding:1rem 2rem;
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255,1);
+  color:#424140;
+  border: 0.5px solid #b7b7b7;
+  border-right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.tour-search-wrapper .ht-search > i {
+  margin-left: 0.5rem;
+  color:#fbc525;
+}
+
+.tour-search-wrapper .ht-search:hover {
+  background-color: rgba(204, 204, 204,0.25);
+}
+
+.tour-search-wrapper .tour-search-btn {
+  padding:1rem 2rem;
+  outline: 0;
+  transition: 0.6s;
+  background-color: #0062f8;
+  color:#fff;
+  cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  border: 0.5px solid #0062f8;
+}
+
+.tour-search-wrapper .tour-search-btn:hover {
+  background-color: rgba(0, 98, 248,0.75);
+}
+
+.calendar-wrapper {
+  max-width:400px;
+}
+</style>
