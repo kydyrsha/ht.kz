@@ -72,7 +72,22 @@
   background-color: rgba(0, 98, 248,0.75);
 }
 
-.calendar-wrapper {
-  max-width:400px;
+@media screen and (max-width:575.98px) {
+  .tour-search-wrapper {
+    flex-direction: column;
+  }
+
+  .tour-search-wrapper .ht-search {
+    border: 0.5px solid #b7b7b7;
+    border-bottom: 0;
+    width:100%;
+    max-width: 250px;
+    justify-content: center;
+  }
+
+  .tour-search-wrapper .tour-search-btn {
+    width:100%;
+    max-width: 250px;
+  }
 }
 </style>
